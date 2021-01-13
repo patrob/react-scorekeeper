@@ -1,0 +1,21 @@
+$border-radius: 10px;
+
+.Scoreboard {
+    .col {
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        &.top-left-corner {
+            border-top-left-radius: $border-radius;
+        }
+        &.top-right-corner {
+            border-top-right-radius: $border-radius;
+        }
+        &.bottom-left-corner {
+            border-bottom-left-radius: $border-radius;
+        }
+        &.bottom-right-corner {
+            border-bottom-right-radius: $border-radius;
+        }
+    }
+}
